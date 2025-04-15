@@ -3,12 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Localización en curso...</title>
+  <title>Terminal de Localización :: Sistema en Ejecución</title>
   <link rel="stylesheet" href="styles.css">
+  <meta name="description" content="Sistema de monitoreo avanzado">
+  <!-- Favicon con icono de alerta -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%23ff0000'><path d='M1 21h22L12 2 1 21zm12-3h-2v-2h2v2zm0-4h-2v-4h2v4z'/></svg>">
 </head>
 <body>
+  <div class="terminal-header">
+    <div class="terminal-title">Sistema de Acceso</div>
+  </div>
+  
   <div id="mensajes">
     <div class="mensaje">[INFO] Iniciando rastreo de IP...</div>
+  </div>
+  
+  <div class="terminal-footer">
+    <div class="status">Estado: ACTIVO</div>
+    <div class="progress-bar">
+      <div class="progress-fill"></div>
+    </div>
+    
   </div>
 
   <script src="script.js"></script>
