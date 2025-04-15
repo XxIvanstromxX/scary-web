@@ -1,0 +1,9 @@
+body {
+    background-color: black;
+    color: lime;
+    font-family: monospace;
+    padding: 20px;
+  }
+  .mensaje {
+    margin: 10px 0;
+  }
